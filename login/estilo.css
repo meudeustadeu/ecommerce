@@ -1,0 +1,133 @@
+body{
+    background: rgb(2,0,40);
+    background: linear-gradient(90deg, rgba(2,0,40,1) 0%, rgba(0,47,62,1) 100%);
+}
+
+.fundo{
+    background: rgb(124,0,0);
+    background: linear-gradient(328deg, rgba(124,0,0,1) 0%, rgba(4,30,94,1) 49%, rgba(33,0,0,1) 100%);
+    width: 60%;
+    height: 40%;
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 2px 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.text_1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 2.5em;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.text_2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(202, 202, 202);
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.img1{
+    max-width: 50px;
+}
+
+.container{
+    font-family: 'Roboto Condensed', sans-serif; ;
+    color:rgb(192, 192, 192);
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+
+.container input{
+    margin: 15px;
+    padding: 12px 20px;
+    position: relative;
+    top: 190px;
+    left: 340px;
+    border: none;
+    border-radius: 5px;
+}
+
+.email{
+    background-image: url(../login/box-user.svg) ;
+    background-position: 290px 10px;
+    background-repeat: no-repeat;
+    color: rgb(26, 26, 26);
+    font-size: 15px;
+}
+
+.senha{
+    background-image: url(../login/pic4.svg) ;
+    background-position: 290px 10px;
+    background-repeat: no-repeat;
+    color: rgb(26, 26, 26);
+    font-size: 15px;
+}
+
+/*
+.container{
+    color: white;
+}
+
+.container label, input{
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+    position: relative;
+    top: 300px;
+    left: 300px;
+
+}
+
+.container input{
+    background-color: rgb(15, 15, 15);
+    border: solid 5px ;
+    border-radius: 15px;
+    border-color: #161616;
+}
+
+*/
+
+
+.login0{
+    position: relative;
+    top: 230px;
+    left: 345px;
+}
+
+.login{
+    background: linear-gradient(249deg, rgba(0,25,173,1) 0%, rgba(111,29,253,1) 50%, rgba(252,69,214,1) 100%);
+    width: 340px;
+    height: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.login:hover{
+    transition: 1s;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+
